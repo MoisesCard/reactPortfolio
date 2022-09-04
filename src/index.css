@@ -12,7 +12,7 @@
 
 :root {
     --color-bg: rgb(22, 22, 22);
-    --color-bg-variant: #1831b2 ;
+    --color-bg-variant: #253583 ;
     --color-primary: #ff908d;
     --color-primary-variant: #ff0f09;
     --color-white: rgb(217, 217, 217);
@@ -87,7 +87,7 @@ a:hover {
     width: max-content;
     display: inline-block;
     color: var(--color-primary);
-    padding: .75rem 1.2 rem;
+    padding: .75rem 1.2rem;
     border-radius: 0.4rem;
     cursor: pointer;
     border: 1px solid var(--color-primary)
