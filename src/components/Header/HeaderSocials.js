@@ -6,9 +6,9 @@ import {AiOutlineInstagram} from 'react-icons/ai'
 const HeaderSocials = () => {
   return (
     <div className='header_socials'>
-        <a href='https:://linkedin.com' target='_blank'><AiOutlineLinkedin/></a>
-        <a href='https:://github.com' target='_blank'><AiOutlineGithub/></a>
-        <a href='https:://instagram.com' target='_blank'><AiOutlineInstagram/></a>
+        <a href='https://linkedin.com/in/moises-cardenas-port' target='_blank'><AiOutlineLinkedin/></a>
+        <a href='https://github.com/MoisesCard' target='_blank'><AiOutlineGithub/></a>
+        <a href='https://instagram.com/moises.thegreat' target='_blank'><AiOutlineInstagram/></a>
     </div>
   )
 }

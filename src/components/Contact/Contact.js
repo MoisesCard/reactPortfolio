@@ -37,7 +37,7 @@ const Contact = () => {
             <AiOutlineFacebook className='contact_option-icon'/>
             <h4>Messenger</h4>
             <h5>Moises Cardenas</h5>
-            <a href='https://m.me/moises.cardenas.7'>Send me a message</a>
+            <a href='https://m.me/moises.cardenas.7' target="_blank">Send me a message</a>
           </article>
         </div>
 

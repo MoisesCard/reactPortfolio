@@ -1,8 +1,8 @@
 import React from 'react'
 import "./footer.css"
-import {AiOutlineFacebook} from 'react-icons/ai'
+import {AiOutlineLinkedin} from 'react-icons/ai'
 import {AiOutlineInstagram} from 'react-icons/ai'
-import {AiOutlineTwitter} from 'react-icons/ai'
+import {AiOutlineGithub} from 'react-icons/ai'
 const Footer = () => {
   return (
     <footer>
@@ -17,9 +17,9 @@ const Footer = () => {
       </ul>
 
       <div className='footer_socials'>
-        <a href='https://facebook.com'><AiOutlineFacebook/></a>
-        <a href='https://instagram.com'><AiOutlineInstagram/></a>
-        <a href='https://twitter.com'><AiOutlineTwitter/></a>
+      <a href='https://linkedin.com/in/moises-cardenas-port' target='_blank'><AiOutlineLinkedin/></a>
+        <a href='https://instagram.com/moises.thegreat' target='_blank'><AiOutlineInstagram/></a>
+        <a href='https://github.com/MoisesCard' target='_blank'><AiOutlineGithub/></a>
       </div>
 
       <div className='footer_copyright'>

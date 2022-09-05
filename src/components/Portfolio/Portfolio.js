@@ -17,21 +17,21 @@ const Portfolio = () => {
           <div className='portfolio_item-image'>
             <img src={IMG1} alt='The Front Yard'/>
           </div>
-          <h3>****Project Title****</h3>
+          <h3>The Front Yard</h3>
           <div className='portfolio_item-cta'>
-            <a href='https://github.com' className='btn' target='_blank'>Github</a>
-            <a href='https://.........com' className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href='https://github.com/robsquaadd/the-front-yard.git' className='btn' target='_blank'>Github</a>
+            <a href='https://the-front-yard.herokuapp.com/' className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
 
         <article className='portfolio_items'>
           <div className='portfolio_item-image'>
-            <img src={IMG2} alt='LensTrends'/>
+            <img src={IMG2} alt='LENSTrends'/>
           </div>
-          <h3>****Project Title****</h3>
+          <h3>LENSTrends</h3>
           <div className='portfolio_item-cta'>
-            <a href='https://github.com' className='btn' target='_blank'>Github</a>
-            <a href='https://.........com' className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href='https://github.com/MoisesCard/Lens-Trends.git' className='btn' target='_blank'>Github</a>
+            <a href='https://moisescard.github.io/Lens-Trends/' className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
 
@@ -39,10 +39,10 @@ const Portfolio = () => {
           <div className='portfolio_item-image'>
             <img src={IMG3} alt='Note Taker'/>
           </div>
-          <h3>****Project Title****</h3>
+          <h3>Note Taker</h3>
           <div className='portfolio_item-cta'>
-            <a href='https://github.com' className='btn' target='_blank'>Github</a>
-            <a href='https://.........com' className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href='https://github.com/MoisesCard/noteTaker.git' className='btn' target='_blank'>Github</a>
+            <a href='https://rocky-inlet-12261.herokuapp.com/' className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
 
@@ -50,10 +50,9 @@ const Portfolio = () => {
           <div className='portfolio_item-image'>
             <img src={IMG4} alt='ReadMe Generator'/>
           </div>
-          <h3>****Project Title****</h3>
+          <h3>ReadMe Generator</h3>
           <div className='portfolio_item-cta'>
-            <a href='https://github.com' className='btn' target='_blank'>Github</a>
-            <a href='https://.........com' className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href='https://github.com/MoisesCard/ReadMe-generator.git' className='btn' target='_blank'>Github</a>
           </div>
         </article>
 
@@ -61,10 +60,10 @@ const Portfolio = () => {
           <div className='portfolio_item-image'>
             <img src={IMG5} alt='Budget Tracker'/>
           </div>
-          <h3>****Project Title****</h3>
+          <h3>Budget Tracker</h3>
           <div className='portfolio_item-cta'>
-            <a href='https://github.com' className='btn' target='_blank'>Github</a>
-            <a href='https://.........com' className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href='https://github.com/MoisesCard/budgetTracker.git' className='btn' target='_blank'>Github</a>
+            <a href='https://warm-springs-90553.herokuapp.com/' className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
 
@@ -72,10 +71,10 @@ const Portfolio = () => {
           <div className='portfolio_item-image'>
             <img src={IMG6} alt='Weather Dashboard'/>
           </div>
-          <h3>****Project Title****</h3>
+          <h3>Weather Dashboard</h3>
           <div className='portfolio_item-cta'>
-            <a href='https://github.com' className='btn' target='_blank'>Github</a>
-            <a href='https://.........com' className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href='https://github.com/MoisesCard/weather-dashboard.git' className='btn' target='_blank'>Github</a>
+            <a href='https://moisescard.github.io/weather-dashboard/' className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
       </div>
