@@ -23,6 +23,7 @@
     --container-width-sm: 90%;
 
     --transition: all 400ms ease;
+    /* --transition-icon: all 2s ease-in-out; */
 }
 
 html{ 
@@ -31,6 +32,7 @@ html{
 
 ::-webkit-scrollbar {
     display:none;
+    
 }
 
 body {

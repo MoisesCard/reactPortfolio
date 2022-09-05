@@ -49,6 +49,34 @@
     color: var(--color-primary);
     font-size: 1.4rem;
     margin-bottom: 1rem;
+    /* transition: var(--transition); */
+}
+
+.about_card:hover .about_icon {
+    transform: rotateY(0deg);
+    animation: iconAnimation infinite 3s ease;
+}
+
+@keyframes iconAnimation {
+    25% {
+        color: rgb(205, 43, 43);
+        transform: rotateY(180deg);
+    }
+
+    50% {
+        color: rgb(6, 188, 6);
+        transform: rotateY(360deg);
+    }
+
+    75% {
+        color: rgb(6, 134, 193);
+        transform: rotateY(180deg);
+    }
+
+    100% {
+        color: rgb(230, 230, 47);
+        transform: rotateY(360deg);
+    }
 }
 
 .about_card h5 {
