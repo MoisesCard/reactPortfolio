@@ -40,7 +40,7 @@ const About = () => {
 
           <p>
               Born in 1996, in Aguascalientes, Mexico. My name is Moises Cardenas. I am a full stack developer
-              based in Florida, USA. I I believe that Web Development is an art form where the user can be presented with an 
+              based in Florida, USA. I believe that Web Development is an art form where the user can be presented with an 
               enjoyable and unforgetable experience, and my goal is to give them that experience.
           </p>
 
