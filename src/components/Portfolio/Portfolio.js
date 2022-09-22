@@ -5,7 +5,8 @@ import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
 import IMG5 from '../../assets/portfolio5.jpg'
-import IMG6 from '../../assets/portfolio6.jpg'
+import IMG7 from '../../assets/portfolio7.jpg'
+
 
 const Portfolio = () => {
   return (
@@ -13,6 +14,17 @@ const Portfolio = () => {
       <h5>My Work</h5>
       <h2>Portfolio</h2>
       <div className='container portfolio_container'>
+      <article className='portfolio_items'>
+          <div className='portfolio_item-image'>
+            <img src={IMG7} alt='Drink Up'/>
+          </div>
+          <h3>Drink Up</h3>
+          <div className='portfolio_item-cta'>
+            <a href='https://github.com/israel386/drink-up.git' className='btn' target='_blank'>Github</a>
+            <a href='https://secret-inlet-46407.herokuapp.com/' className='btn btn-primary' target='_blank'>Live Demo</a>
+          </div>
+        </article>
+        
         <article className='portfolio_items'>
           <div className='portfolio_item-image'>
             <img src={IMG1} alt='The Front Yard'/>
@@ -64,17 +76,6 @@ const Portfolio = () => {
           <div className='portfolio_item-cta'>
             <a href='https://github.com/MoisesCard/budgetTracker.git' className='btn' target='_blank'>Github</a>
             <a href='https://warm-springs-90553.herokuapp.com/' className='btn btn-primary' target='_blank'>Live Demo</a>
-          </div>
-        </article>
-
-        <article className='portfolio_items'>
-          <div className='portfolio_item-image'>
-            <img src={IMG6} alt='Weather Dashboard'/>
-          </div>
-          <h3>Weather Dashboard</h3>
-          <div className='portfolio_item-cta'>
-            <a href='https://github.com/MoisesCard/weather-dashboard.git' className='btn' target='_blank'>Github</a>
-            <a href='https://moisescard.github.io/weather-dashboard/' className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
       </div>
