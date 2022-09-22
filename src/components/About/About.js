@@ -1,5 +1,5 @@
 import React from 'react'
-import "./about.css"
+import "./About.css"
 import ME2 from '../../assets/ME2.png'
 import {MdOutlineComputer}  from 'react-icons/md'
 import {HiOutlineFolderOpen} from 'react-icons/hi'
